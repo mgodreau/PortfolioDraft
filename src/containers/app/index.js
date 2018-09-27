@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom'
 import Home from '../home'
 import About from '../about'
 import NavBar from '../nav'
+import Projects from '../projects'
 
 const App = () => (
 
@@ -16,6 +17,7 @@ const App = () => (
     <main>
       <Route exact path="/" component={Home} />
       <Route exact path="/about-mere" component={About} />
+      <Route exact path="/projects" component={Projects} />
     </main>
 
   </div>
